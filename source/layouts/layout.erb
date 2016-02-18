@@ -15,6 +15,26 @@
   </head>
 
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <div class="container">
+      <div class="logo-container">
+        <%= image_tag "images/logo.png" %>
+      </div>
+      <nav class="main-nav">
+        <ul>
+          <li><%= link_to "One", "#" %></li>
+          <li><%= link_to "Two", "#" %></li>
+          <li><%= link_to "Three", "#" %></li>
+          <li><%= link_to "Four", "#" %></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <article class="content">
+        <%= yield %>
+      </article>
+
+      <div class="sidebar">this is a sidebar</div>
+    </div>
   </body>
 </html>
