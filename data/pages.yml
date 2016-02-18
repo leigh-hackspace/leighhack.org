@@ -1,0 +1,15 @@
+- name: "welcome"
+
+- name: "about"
+
+- name: "shop"
+  link: "http://www.zazzle.co.uk/leigh_hackspace"
+
+- name: "events"
+
+- name: "membership"
+
+- name: "supporters"
+
+- name: "forum"
+  link: "http://discourse.leighhack.org/"
