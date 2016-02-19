@@ -57,10 +57,28 @@
 
 footer {
   background-color: $hs-footer;
+  color: $hs-grey-text;
   margin-top: 100px;
   padding: 60px 0;
-  color: $hs-grey-text;
 
   .container {
+    text-align: center;
+  }
+}
+
+.social-icons {
+  margin-bottom: 15px;
+
+  li {
+    display: inline;
+  }
+
+  a {
+    margin: 0 15px;
+    color: $hs-grey-text;
+
+    &:hover {
+      color: #999;
+    }
   }
 }
