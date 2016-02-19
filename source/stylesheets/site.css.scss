@@ -30,9 +30,16 @@
   }
 
   a {
+    border-bottom: 2px solid $white;
     color: $hs-text;
     font-size: .9em;
     letter-spacing: 1px;
+    padding: 5px 0;
+
+    &:hover {
+      @include transition(border-bottom .3s ease-in-out);
+      border-bottom: 2px solid $hs-grey-text;
+    }
   }
 }
 
