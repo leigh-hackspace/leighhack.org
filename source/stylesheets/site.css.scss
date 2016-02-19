@@ -54,3 +54,13 @@
     @include span-columns(4);
   }
 }
+
+footer {
+  background-color: $hs-footer;
+  margin-top: 100px;
+  padding: 60px 0;
+  color: $hs-grey-text;
+
+  .container {
+  }
+}
