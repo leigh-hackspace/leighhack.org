@@ -44,21 +44,18 @@
 }
 
 .content {
-  @include span-columns(8 of 12);
-  padding: 0 80px;
+  padding: 15px;
 
   @include media($medium-screen-up) {
-    @include span-columns(4);
-    padding: 15px;
+    @include span-columns(8 of 4);
+      padding: 0 80px;
   }
 }
 
 .sidebar {
-  @include span-columns(4 of 12);
-  margin-top: 108px;
-
   @include media($medium-screen-up) {
-    @include span-columns(4);
+    @include span-columns(4 of 12);
+      margin-top: 108px;
   }
 }
 
