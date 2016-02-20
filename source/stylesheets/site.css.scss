@@ -15,18 +15,24 @@
 }
 
 .logo-container {
-  margin: 40px 0 60px;
+  margin: 20px 0;
   text-align: center;
+
+  @include media($large-screen-up) {
+    margin: 40px 0 60px;
+  }
 }
 
 .main-nav {
-  margin-bottom: 60px;
   text-align: center;
   text-transform: uppercase;
 
+  @include media($large-screen-up) {
+    margin-bottom: 20px;
+  }
+
   li {
     display: inline;
-    margin: 0 15px;
   }
 
   a {
@@ -34,6 +40,8 @@
     color: $hs-text;
     font-size: .9em;
     letter-spacing: 1px;
+    line-height: 45px;
+    margin: 0 14px;
     padding: 5px 0;
 
     &:hover {
@@ -46,16 +54,18 @@
 .content {
   padding: 15px;
 
-  @include media($medium-screen-up) {
-    @include span-columns(8 of 4);
-      padding: 0 80px;
+  @include media($large-screen-up) {
+    @include span-columns(5);
+    padding: 0 0 0 65px;
   }
 }
 
 .sidebar {
-  @include media($medium-screen-up) {
-    @include span-columns(4 of 12);
-      margin-top: 108px;
+  padding: 0 65px 0 0;
+
+  @include media($large-screen-up) {
+    @include span-columns(3);
+    margin-top: 108px;
   }
 }
 
