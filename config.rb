@@ -38,7 +38,7 @@ end
 # Build-specific configuration
 configure :build do
   # This is for github pages
-  activate :relative_assets
+  # activate :relative_assets
 
   # Minify CSS on build
   # activate :minify_css
