@@ -1,0 +1,51 @@
+- name: "Sugru"
+  logo: "sugru_logo.jpg"
+  description: "Sugru donated us a load of free Sugru to use in our hacks"
+
+- name: "B & Q"
+  logo: "bq_logo.png"
+  description: "B&amp;Q offered us offcuts of wood and tins of unsold paints and many other free items"
+
+- name: "Bahco"
+  logo: "bahco_logo.png"
+  description: "Bahco donated over £300 worth of brand new tools!"
+
+- name: "Pragmatic Bookshelf"
+  logo: "pragmatic_logo.png"
+  description: "Pragmatic Bookshelf donated a large range of tech and programming books from the Pragmatic and O’Reilly range, worth over £250"
+
+- name: "Tank Coffee"
+  logo: "tankcoffee_logo.png"
+  description: "Tank Coffee donated free coffee when we first got started, and have been our preferred coffee supplier ever since. They even came to our 25 Market Street opening event in February 2015 and served their excellent coffee!"
+
+- name: "Wigan Council"
+  logo: "wigan_council_logo.jpg"
+  description: "Wigan Council donated chairs, desks, bookshelves and other office furniture from their disused stock at Wigan Pier, and are working with us on our Deal In Action Hack Day"
+
+- name: "Collins and Darwell"
+  logo: "collins_darwell_logo.jpg"
+  description: "Collins and Darwell, Leigh’s oldest business and our local printers, have supported us throughout by printing flyers, stickers, and our shop front signage."
+
+- name: "3M"
+  logo: "3m_logo.png"
+  description: "3M donated a huge bag of their fabulous (and fabulously expensive) Command Strips™ which we needed for putting up posters and other things on our walls without damaging them (in 25 Market Street we weren’t allowed to make any such modifications at all!)"
+
+- name: "Bert Agency"
+  logo: "bertagency_logo.png"
+  description: "Bert Agency commissioned us for our first major commission – the Pepsi Hack Day which linked a Pepsi Machine into Xero Online Accountancy software enabling it to auto-report its transactions"
+
+- name: "Flow Online Accountancy"
+  logo: "xero_logo.jpg"
+  description: "Flow Online Accountancy and Xero Accounting Software donated free accountancy services and the awesome Xero cloud accounting software for Hackspace"
+
+- name: "Leigh Building Preservation Trust"
+  logo: "spinners_logo.png"
+  description: "Leigh Building Preservation Trust (aka Leigh Spinners Mill redevelopment project) have been a trememdous ally and have shared the 25 Market Street premises with us since we took up occupancy in January 2015"
+
+- name: "D’Addario"
+  logo: "daddario_logo.png"
+  description: "D’Addario Strings donated 10 sets of strings for a Musical Hack day we planned for 2015 (OK so it didn’t yet happen, but we still have the strings and we will be having our guitar hacking day in 2016 instead)"
+
+- name: "Sunshine House Wigan"
+  logo: "sunshine_house_logo.png"
+  description: "Sunshine House Wigan let us have their unused 3D Printer on trust, while we built up the funds to pay for it. Happily we cleared that debt at the end of 2015 and we thank them for believing in us."

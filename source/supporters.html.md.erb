@@ -1,1 +1,13 @@
-THERE WILL BE SUPPORTERS HERE
+# Supporters
+
+Thanks to the following groups, companies and organisations who have donated to Leigh Hackspace.
+
+In no particular order...
+
+<% data.supporters.each do |supporter| %>
+  <div class="supporters-panel">
+    <%= image_tag "/images/" + supporter["logo"] %>
+    <p><%= supporter["description"] %></p>
+    <hr />
+  </div>
+<% end %>
