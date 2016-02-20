@@ -31,7 +31,7 @@ end
 # Methods defined in the helpers block are available in templates
  helpers do
    def show_link(page)
-     page["link"].nil? ? page["name"] : page["link"]
+     page["link"].nil? ? "/" + page["name"] : page["link"]
    end
  end
 
