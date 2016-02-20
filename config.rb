@@ -31,12 +31,15 @@ end
 # Methods defined in the helpers block are available in templates
  helpers do
    def show_link(page)
-     page["link"].nil? ? page["name"] : page["link"]  
+     page["link"].nil? ? page["name"] : page["link"]
    end
  end
 
 # Build-specific configuration
 configure :build do
+  # This is for github pages
+  activate :relative_assets
+
   # Minify CSS on build
   # activate :minify_css
 
